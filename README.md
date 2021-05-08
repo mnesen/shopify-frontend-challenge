@@ -1,9 +1,6 @@
 # Shopify_Intern_Challenge
 
-Shopify's Front-End Devlopment Intern Challenge
-
-![Demo image](demo-image.PNG);
-
+#Shopify's Front-End Devlopment Intern Challenge
 
 - Allows users to search the OMDB API (http://www.omdbapi.com/) and nominate their favorite films! 
 - Gives users the option to learn more details about the movie
@@ -11,6 +8,8 @@ Shopify's Front-End Devlopment Intern Challenge
 
 
 Check it out at : https://mnesen.github.io/shopify-frontend-challenge/
+
+![Demo image](demo-image.PNG);
 
 
 # What I used to build the project
@@ -22,8 +21,6 @@ Check it out at : https://mnesen.github.io/shopify-frontend-challenge/
 * OMDB API (http://www.omdbapi.com/)
 
 
-
-# ---
 
 # Getting Started with Create React App
 
