@@ -1,6 +1,4 @@
-# Shopify_Intern_Challenge
-
-#Shopify's Front-End Devlopment Intern Challenge
+# Shopify Frontend Challenge
 
 - Allows users to search the OMDB API (http://www.omdbapi.com/) and nominate their favorite films! 
 - Gives users the option to learn more details about the movie
