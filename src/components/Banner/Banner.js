@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <div className="Banner" >
-                <h2>You nominated 5 films for The Shoppies!</h2>
+                <h4>Your nominations for The Shoppies!</h4>
             </div>
         </div>
     )

@@ -13,4 +13,11 @@
         color: $primaryColorDark;
         display: block;
     }
+
+    @media (max-width: $screen-size-lg){
+        h1{
+            font-size: 28px;
+            transition: 1s;
+        }
+    }
 }

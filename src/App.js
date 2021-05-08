@@ -67,7 +67,7 @@ function App() {
         searchTerm={searchTerm}
         Nominate={Nominate}
       />
-
+  
       <NominationsContainer
         nominations={nominations}
         removeNomination={removeNomination}

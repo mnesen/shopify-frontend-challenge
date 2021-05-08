@@ -5,13 +5,16 @@
     align-items: center;
     justify-content: center;
     background-color: $primaryColorLight;
-    height: 120px;
+    height: 70px;
     width: 100%;
     transition: 2s;
     padding: 16px;
+    box-shadow: 0 4px 5px -5px $primaryColor;
     box-sizing: border-box;
+    position: absolute;
  
-    h2{
+    h4{
         color: $primaryColor;
+        text-align: center;
     }
 }
