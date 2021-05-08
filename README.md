@@ -1,3 +1,30 @@
+# Shopify_Intern_Challenge
+
+Shopify's Front-End Devlopment Intern Challenge
+
+![Demo image](./demo-image.png);
+
+
+- Allows users to search the OMDB API (http://www.omdbapi.com/) and nominate their favorite films! 
+- Gives users the option to learn more details about the movie
+- Saves nomination lists to local storage if the user leaves the page
+
+
+Check it out at : https://mnesen.github.io/shopify-frontend-challenge/
+
+
+# What I used to build the project
+
+* React.js
+* HTML
+* SASS
+* Axios
+* OMDB API (http://www.omdbapi.com/)
+
+
+
+# ---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
