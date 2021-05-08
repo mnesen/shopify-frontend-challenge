@@ -2,7 +2,7 @@
 
 Shopify's Front-End Devlopment Intern Challenge
 
-![Demo image](demo-image.png);
+![Demo image](demo-image.PNG);
 
 
 - Allows users to search the OMDB API (http://www.omdbapi.com/) and nominate their favorite films! 
