@@ -9,7 +9,6 @@ Check it out at : https://mnesen.github.io/shopify-frontend-challenge/
 
 ![Demo image](demo-image.PNG);
 
-
 # What I used to build the project
 
 * React.js
