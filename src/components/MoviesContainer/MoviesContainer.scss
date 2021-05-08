@@ -1,0 +1,27 @@
+@import '../../theme';
+
+.MoviesContainer{
+    background-color: white;
+    width: 60%;
+    float: left;
+    padding: 0px 16px 0px 16px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    outline: 0.1 rem solid transparent;
+
+    @media (max-width: $screen-size-lg){
+        width: 90%;
+        transition: 1s;
+    }
+
+    h4{
+        font-size: 18px;
+        text-align: left;
+    }
+    span{
+        color: $primaryColor;
+    }
+}

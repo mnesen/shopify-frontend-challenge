@@ -1,0 +1,17 @@
+@import '../../theme';
+
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primaryColorLight;
+    height: 120px;
+    width: 100%;
+    transition: 2s;
+    padding: 16px;
+    box-sizing: border-box;
+ 
+    h2{
+        color: $primaryColor;
+    }
+}

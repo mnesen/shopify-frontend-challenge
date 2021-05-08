@@ -1,0 +1,109 @@
+@import '../../theme';
+
+.Movie{
+    display: flex;
+    align-items: center;
+    padding: 16px 0px 16px 0px;
+
+    .Buttons{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    h4{
+        margin-left: 16px;
+        margin-right: 16px;
+        font-weight: normal;
+    }
+
+    img{
+        width: 75px;
+        height: 110px;
+        box-sizing: border-box;
+        outline: 2px solid black;
+    }
+
+    i{
+        color: $primaryColor;
+        font-size: 20px;
+        margin: 16px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+
+    button{
+        background-color: $primaryColor;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 8px 20px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        line-height: 1.3;
+        &:hover:enabled{
+            transition: 0.5s;
+            box-shadow: 0 5px 25px 0 $primaryColorDark;
+        }
+        &:disabled{
+            opacity: 0.5;
+            cursor: default;
+        }
+    }
+
+
+    @media (max-width: $screen-size-lg){
+        img{
+            width: 60px;
+            height: 85px;
+            box-sizing: border-box;
+            outline: 2px solid black;
+            transition: 1s;
+        }
+
+        h4{
+            font-size: 16px !important;
+            transition: 1s;
+        }
+    }
+}
+
+.Movie-Details{
+    display: flex;
+    padding: 0px 16px 0px 16px;
+    margin-top: 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: 100%;
+    background-color: $primaryColorLight;
+    border-bottom: 2px solid $primaryColor;
+
+    span{
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    i{
+        font-size: 48px;
+        color: $primaryColor;
+        margin: auto; 
+    }
+
+    .left{
+        width: 50%;
+        margin-right: 32px;
+    }
+    .right{
+        width: 50%;
+        margin-right: 32px;
+    }
+}
+
