@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { fetchMovie } from './api';
 
+
 import Heading from './components/Heading/Heading';
+import RepoLink from './components/RepoLink/RepoLink';
 import SearchBar from './components/SearchBar/SearchBar';
 import MoviesContainer from './components/MoviesContainer/MoviesContainer';
 import NominationsContainer from './components/NominationsContainer/NominationsContainer';
+
 import './App.css';
 
 function App() {
@@ -55,6 +58,8 @@ function App() {
   return (
     <div className="App">
 
+      <RepoLink />
+
       <Heading />
 
       <SearchBar
@@ -72,6 +77,7 @@ function App() {
         nominations={nominations}
         removeNomination={removeNomination}
       />
+
     </div>
   );
 }

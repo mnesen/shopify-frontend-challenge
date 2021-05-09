@@ -13,7 +13,7 @@ Check it out at : https://mnesen.github.io/shopify-frontend-challenge/
 
 * React.js
 * HTML
-* SASS
+* SCSS
 * Axios
 * OMDB API (http://www.omdbapi.com/)
 
