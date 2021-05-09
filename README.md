@@ -1,6 +1,9 @@
 # Shopify Frontend Challenge
 
 - Allows users to search the OMDB API (http://www.omdbapi.com/) and nominate their favorite films! 
+- Add a movie from the search results to your nomination list
+- View the list of films already nominated
+- Remove a nominee from the nomination list
 - Gives users the option to learn more details about the movie
 - Saves nomination lists to local storage if the user leaves the page
 
